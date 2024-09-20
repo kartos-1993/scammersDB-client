@@ -4,7 +4,7 @@ export default function Home() {
   function facebook() {
     console.log("button clicked");
     window.open(
-      "https://celebs-backend-1x4a.onrender.com//api/facebook",
+      "https://celebs-backend-1x4a.onrender.com/api/facebook",
       "_self"
     );
   }

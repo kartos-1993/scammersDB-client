@@ -3,7 +3,10 @@
 export default function Home() {
   function facebook() {
     console.log("button clicked");
-    window.open("https://scammersdb-server.onrender.com/api/facebook", "_self");
+    window.open(
+      "https://celebs-backend-1x4a.onrender.com//api/facebook",
+      "_self"
+    );
   }
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
